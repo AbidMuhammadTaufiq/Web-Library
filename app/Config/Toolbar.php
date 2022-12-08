@@ -36,6 +36,7 @@ class Toolbar extends BaseConfig
     public $collectors = [
         Timers::class,
         Database::class,
+        \Myth\Auth\Collectors\Auth::class,
         Logs::class,
         Views::class,
         // \CodeIgniter\Debug\Toolbar\Collectors\Cache::class,

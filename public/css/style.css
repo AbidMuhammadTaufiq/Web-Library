@@ -1,7 +1,134 @@
+.navbar .nav-item .nav-link:hover{
+  color: #fff;
+}
+
+.card .card-body p{
+  font-family: sans-serif;
+}
+
+.gambar {
+  width: auto;
+  height: 150px;
+}
+
+.gambarr {
+  width: auto;
+  height: 500px;
+}
+@media (min-width: 400px) {
+  .gambarr {
+    width: auto;
+  height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .gambarr {
+    width: auto;
+  height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .gambarr {
+    width: auto;
+  height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .gambarr {
+    width: auto;
+  height: 450px;
+  }
+}
+@media (min-width: 1400px) {
+  .gambarr {
+    width: auto;
+  height: 500px;
+  }
+}
+
+.gambar-owl {
+  width: auto;
+  height: 200px;
+}
+
 .sampul {
   width: 70px;
 }
 
-.table > tbody > tr > * {
-  vertical-align: middle;
+/* membatasi judul buku */
+#text-limited{
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* membatasi judul resensi */
+#text-limitedd{
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* backgorund images rekomendasi buku*/
+.bg-image {
+  background-attachment: fixed;
+  background-image: url("/img/content/batik.jpg");
+  background-color: #cccccc;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* jumbotron */
+.banner {
+  background: url("/img/content/jumbotron.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  color: #fff;
+}
+
+.crop-img {
+  object-fit: cover;
+  justify-content: center;
+}
+.tentang{
+  width: 350px;
+  height: 300px;
+}
+@media (min-width: 400px) {
+  .tentang {
+    width: 350px;
+    height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .tentang {
+    width: 350px;
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .tentang {
+    width: 350px;
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .tentang {
+    width: 350px;
+  height: 450px;
+  }
+}
+@media (min-width: 1400px) {
+  .tentang {
+    width: 350px;
+    height: 300px;
+  }
 }
